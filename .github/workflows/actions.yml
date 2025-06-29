@@ -98,7 +98,7 @@ jobs:
         echo "REPORT_NAME=${REPORT_NAME}" >> $GITHUB_ENV
         echo "REPORT_LOCATION=$HOME/zap-reports" >> $GITHUB_ENV
 
-    - name: Show which report we'll upload
+    - name: Show which report we'll uploads
       run: |
         echo "Uploading report: ${{ env.REPORT_NAME }}"
 
